@@ -1,0 +1,95 @@
+@media only screen and (min-width: 768px) {
+
+  .stages-item-pic {
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: all .75s ease;
+    overflow: hidden;
+  }
+
+  .stages-item-descr {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: all .75s ease;
+    transition-delay: .5s;
+  }
+
+  .slick-active .stages-item-pic {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .slick-active .stages-item-descr {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .projects-item-pic,
+  .team-tmb-pic
+  {
+    overflow: hidden;
+  }
+
+  .stages-item-pic-pic,
+  .projects-item-pic-pic,
+  .team-tmb-pic-pic
+  {
+    transition: all 3s ease;
+  }
+
+  .stages-item-pic:hover .stages-item-pic-pic,
+  .projects-item-pic:hover .projects-item-pic-pic,
+  .team-tmb-pic:hover .team-tmb-pic-pic
+  {
+    transform: scale(1.07);
+  }
+
+  .projects-wrapper,
+  .slider-wrapper {
+    perspective: 1200px;
+  }
+
+  .projects-slider-wrapper,
+  .slider-l-inner {
+    transform-origin: 0 center;
+  }
+
+  .projects-nav-wrapper,
+  .slider-r-inner {
+    transform-origin: right center;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .top-form,
+  .top-circle,
+  .form-circle,
+  .reviews-circle {
+    transform: none !important;
+  }
+
+  .stages-item,
+  .stages-item-pic,
+  .stages-item-pic-pic,
+  .stages-item-descr,
+  .stages-item-descr-inner,
+  .slider-l-inner,
+  .slider-r-inner,
+  .projects-r,
+  .projects-l,
+  .pros-tmb-pic,
+  .pros-tmb .h3,
+  .client-tmb,
+  .section-clients-sup-ttl,
+  .section-clients-ttl,
+  .service-tmb-inner > .service-tmb-letter,
+  .team-tmb-pic,
+  .team-tmb-descr
+  {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+}
