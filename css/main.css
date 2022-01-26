@@ -13,7 +13,7 @@ body {
   line-height: 1.73;
   font-weight: normal;
   color: #fff;
-  background: #342b8e;
+  background: #111012;
 }
 
 @media (min-width: 1230px) {
@@ -1322,13 +1322,18 @@ header {
 }
 
 .header-content-inner {
-  background: #221d5c;
+  background: #1c1a1d;
 }
 
 .header-content-inner .row {
   margin: 0;
   flex-wrap: nowrap;
 }
+
+.preim-row {
+  margin-top: 100px;
+}
+
 
 .header-col-1 {
   padding: 0;
@@ -1895,6 +1900,10 @@ header {
   background-size: 70px 42px;
   width: 35px;
   height: 21px;
+}
+
+.bg-dark {
+  background-color: #1f2125 !important;
 }
 
 .projects-up {
