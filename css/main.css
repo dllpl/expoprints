@@ -25,11 +25,12 @@ body {
 
 h1,
 .h1 {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 30px;
+  line-height: 45px;
   font-weight: bold;
   margin: 0 0 26px 0;
 }
+
 
 h2,
 .h2 {
@@ -45,11 +46,14 @@ h3:first-child,
   margin-top: 0;
 }
 
+
+
 a,
 a:focus {
   color: #ffde12;
   text-decoration: none;
 }
+
 
 a:hover {
   text-decoration: underline;
@@ -318,9 +322,19 @@ ul.slick-dots .slick-active button {
   padding: 23px 30px 23px 30px;
 }
 
+.preview-pic-wrapper {
+  font-size: 26px;
+}
+
 .header-logo-pic {
-  font-size: 30px;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo-pic>img{
+  width: 160px;
+  margin: 10px 10px 10px 10px;
 }
 
 .btn-callback,
@@ -1435,6 +1449,10 @@ header {
   position: relative;
 }
 
+.section-margin {
+  margin-top: 170px;
+}
+
 .section-content {
   position: relative;
   z-index: 10;
@@ -1536,7 +1554,7 @@ header {
 }
 
 .section-stages .section-content {
-  padding: 130px 0 0 0;
+  padding: 240px 0 0 0;
 }
 
 .stages-nav {
@@ -2249,7 +2267,7 @@ header {
   min-height: 390px;
   margin: -40px 0;
   position: relative;
-  padding: 105px 50px 63px 50px;
+  padding: 105px 50px 63px 170px;
 }
 
 .pros-tmb:hover {
@@ -2292,11 +2310,29 @@ header {
   display: none;
 }
 
+.pulse {
+    animation: pulse_grow 2s infinite;
+    color: #ffde12;
+}
+
+@keyframes pulse_grow {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
 .pros-tmb-pic {
   width: 128px;
   height: 110px;
   background: url(../images/pros-pic-bg.png) 0 0 no-repeat;
   background-size: 128px 110px;
+  font-size: 100px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -2837,7 +2873,22 @@ footer {
   overflow: hidden;
 }
 
+.price-section {
+    margin-top: 200px;
+}
 
+.service-section i {
+    font-size: 80px;
+}
+
+.service-section .row {
+  margin-top: 80px;
+}
+
+.service-title {
+  font-size: 22px;
+  margin-top: 15px;
+}
 
 .footer-content {
   position: relative;
@@ -2865,15 +2916,19 @@ footer {
 }
 
 .footer-contacts {
-  padding: 92px 0 86px 0;
+  padding: 115px 0 86px 0;
 }
 
 .footer-contacts h4,
 .footer-contacts .h4 {
-  font-size: 18px;
+  font-size: 28px;
   line-height: 26px;
   font-weight: bold;
   margin: 0 0 14px 0;
+}
+
+.footer-contacts p {
+    font-size: 18px;
 }
 
 footer a {
@@ -2915,7 +2970,7 @@ footer a:hover {
   font-size: 40px;
   line-height: 40px;
   font-weight: bold;
-  padding: 129px 0 13px 0;
+  padding: 115px 0 13px 0;
 }
 
 .footer-phone a:hover {

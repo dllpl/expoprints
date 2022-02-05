@@ -481,6 +481,31 @@ body,
 
 /* Mobile */
 @media (max-width: 767px) {
+
+	.header-logo-pic>img {
+		margin: 0;
+		width: 150px;
+	}
+	.pros-tmb-pic {
+		font-size: 60px;
+	}
+
+	.price-section {
+		margin-top: 80px;
+	}
+
+	.preview-pic-wrapper {
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	.service-section i {
+		font-size: 50px;
+		margin-top: 50px;
+	}
+	.service-section .row {
+		margin-top: 30px;
+	}
 	body,
 	html {
 		font-size: 14px;
@@ -1095,3 +1120,9 @@ body,
 		right: 0; } }
 
 /* Mobile END */
+
+@media (max-width: 375px) {
+	.header-logo-pic>img {
+		width: 120px;
+	}
+}
