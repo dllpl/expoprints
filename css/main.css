@@ -1474,6 +1474,11 @@ header {
   text-align: center;
 }
 
+.address-info {
+  margin-top: -70px;
+  margin-bottom: 50px;
+}
+
 .section-bg img {
   position: relative;
   left: 50%;
