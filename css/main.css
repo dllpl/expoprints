@@ -1336,7 +1336,7 @@ header {
 }
 
 .header-content-inner {
-  background: #1c1a1d;
+  background: #000f2d;
 }
 
 .header-content-inner .row {
@@ -1475,7 +1475,7 @@ header {
 }
 
 .address-info {
-  margin-top: -70px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -2366,7 +2366,7 @@ header {
   right: 0;
   top: 0;
   min-height: 100%;
-  background: #1f2125;
+  background: rgba(107, 118, 124, 0.93);
   font-size: 18px;
   line-height: 34px;
 }
