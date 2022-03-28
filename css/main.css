@@ -1800,7 +1800,7 @@ header {
 .projects-item-client,
 .projects-item-place {
   padding: 16px 15px 15px 15px;
-  width: 196px;
+  width: 265px;
   flex-grow: 0;
   flex-shrink: 0;
 }
@@ -1816,6 +1816,7 @@ header {
 
 .projects-item-client .logo,
 .projects-item-place .logo {
+  font-size: 28px;
   height: 60px;
   display: flex;
   align-items: center;
