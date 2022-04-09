@@ -646,14 +646,14 @@ $(document).ready(function () {
 
 	$("a.fancybox").fancybox({
 		loop: true,
-		clickOutside: "close"
+		clickOutside: "close",
 	});
 
 	$(".fancybox-video").fancybox({
 		helpers : {
 			media : {}
 		},
-		type: "iframe"
+		type: "iframe",
 	});
 
 	// Forms
