@@ -1488,7 +1488,7 @@ header {
 
 .top-form {
   padding: 30px 50px 60px 50px;
-  background: #ffde12;
+  background: rgba(255, 222, 18, 0.83);
   position: absolute;
   right: 0;
   bottom: -60px;
